@@ -1,0 +1,921 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Skatenne Investment Limited - Leading construction and civil engineering firm specializing in modern infrastructure, architectural design, and industrial building excellence."
+    />
+    <title>
+      Skatenne Investment Limited | Building Excellence & Infrastructure
+      Pioneers
+    </title>
+    <!-- Google Fonts: Inter & Montserrat -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Montserrat:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FontAwesome for Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <!-- Sticky Header -->
+    <header class="main-header" id="header">
+      <div class="container header-container">
+        <a href="#home" class="logo">
+          <span class="logo-accent">Skatenne</span> Investment
+        </a>
+
+        <!-- Desktop Navigation -->
+        <nav class="nav-menu">
+          <a href="#home" class="nav-link active">Home</a>
+          <a href="#about" class="nav-link">About Us</a>
+          <a href="#projects" class="nav-link">Projects</a>
+          <a href="#articles" class="nav-link">Articles</a>
+        </nav>
+
+        <div class="header-cta">
+          <button class="btn btn-primary open-quote-modal">
+            Request a Quote
+          </button>
+        </div>
+
+        <!-- Mobile Hamburger Menu Button -->
+        <button
+          class="hamburger"
+          id="hamburger-menu"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Mobile Drawer Overlay Menu -->
+    <div class="mobile-drawer" id="mobile-drawer">
+      <button class="close-drawer" id="close-drawer" aria-label="Close menu">
+        <i class="fas fa-times"></i>
+      </button>
+      <nav class="mobile-nav">
+        <a href="#home" class="mobile-link">Home</a>
+        <a href="#about" class="mobile-link">About Us</a>
+        <a href="#projects" class="mobile-link">Projects</a>
+        <a href="#articles" class="mobile-link">Articles</a>
+        <button class="btn btn-primary open-quote-modal mobile-cta-btn">
+          Request a Quote
+        </button>
+      </nav>
+    </div>
+
+    <!-- Main Content -->
+    <main>
+      <!-- Hero Section with Carousel -->
+      <section class="hero-section" id="home">
+        <div class="hero-slider" id="hero-slider">
+          <!-- Slide 1 -->
+          <div
+            class="slide active"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1541888946425-d81bb19240f5?auto=format&fit=crop&w=1920&q=80&quot;);
+            "
+          >
+            <div class="slide-overlay"></div>
+            <div class="container slide-content">
+              <span class="slide-badge">Skatenne Investment</span>
+              <h1 class="slide-title">Building Excellence with Precision</h1>
+              <p class="slide-subtitle">
+                We turn ambitious blueprints into robust, modern realities.
+                Driven by precision, safety, and top-tier construction
+                standards.
+              </p>
+              <div class="slide-cta">
+                <button class="btn btn-primary open-quote-modal">
+                  Get a Quote
+                </button>
+                <a href="#projects" class="btn btn-secondary">Our Projects</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 2 -->
+          <div
+            class="slide"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1590069261209-f8e9b8642343?auto=format&fit=crop&w=1920&q=80&quot;);
+            "
+          >
+            <div class="slide-overlay"></div>
+            <div class="container slide-content">
+              <span class="slide-badge">Civil Infrastructure</span>
+              <h1 class="slide-title">Infrastructure Pioneers</h1>
+              <p class="slide-subtitle">
+                Connecting communities with high-quality roadways, bridges, and
+                industrial structures engineered to endure generations.
+              </p>
+              <div class="slide-cta">
+                <button class="btn btn-primary open-quote-modal">
+                  Get a Quote
+                </button>
+                <a href="#about" class="btn btn-secondary">Learn More</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 3 -->
+          <div
+            class="slide"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1920&q=80&quot;);
+            "
+          >
+            <div class="slide-overlay"></div>
+            <div class="container slide-content">
+              <span class="slide-badge">Architectural Design</span>
+              <h1 class="slide-title">Modern Architectural Mastery</h1>
+              <p class="slide-subtitle">
+                A harmonious marriage of sleek structural integrity and refined
+                aesthetics. Crafting functional spaces that inspire.
+              </p>
+              <div class="slide-cta">
+                <button class="btn btn-primary open-quote-modal">
+                  Get a Quote
+                </button>
+                <a href="#projects" class="btn btn-secondary">View Showcase</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Slide 4 -->
+          <div
+            class="slide"
+            style="
+              background-image: url(&quot;https://images.unsplash.com/photo-1581094288338-2314dddb7ecc?auto=format&fit=crop&w=1920&q=80&quot;);
+            "
+          >
+            <div class="slide-overlay"></div>
+            <div class="container slide-content">
+              <span class="slide-badge">Engineering & Logistics</span>
+              <h1 class="slide-title">Uncompromising Quality & Safety</h1>
+              <p class="slide-subtitle">
+                Employing cutting-edge construction technologies and strict,
+                certified protocols to guarantee project safety and success.
+              </p>
+              <div class="slide-cta">
+                <button class="btn btn-primary open-quote-modal">
+                  Request Quote
+                </button>
+                <a href="#articles" class="btn btn-secondary">Read Insights</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slider Navigation Arrows -->
+        <button
+          class="slider-arrow prev"
+          id="slide-prev"
+          aria-label="Previous slide"
+        >
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+        <button
+          class="slider-arrow next"
+          id="slide-next"
+          aria-label="Next slide"
+        >
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+
+        <!-- Slider Indicators -->
+        <div class="slider-indicators" id="slider-indicators">
+          <span class="dot active" data-slide="0"></span>
+          <span class="dot" data-slide="1"></span>
+          <span class="dot" data-slide="2"></span>
+          <span class="dot" data-slide="3"></span>
+        </div>
+      </section>
+
+      <!-- Services Overview Grid (Landing Page Core) -->
+      <section class="section services-section gray-bg" id="services">
+        <div class="container">
+          <div class="section-header">
+            <span class="subtitle">What We Do</span>
+            <h2 class="title">Comprehensive Construction Solutions</h2>
+            <div class="header-line"></div>
+          </div>
+
+          <div class="grid grid-3">
+            <!-- Service Card 1 -->
+            <div class="card service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-person-digging"></i>
+              </div>
+              <h3>General Construction</h3>
+              <p>
+                Handling large-scale residential, commercial, and industrial
+                construction projects from zoning to final architectural
+                handover.
+              </p>
+            </div>
+
+            <!-- Service Card 2 -->
+            <div class="card service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-bridge"></i>
+              </div>
+              <h3>Civil Infrastructure</h3>
+              <p>
+                Designing and constructing resilient roadways, bridges, drainage
+                channels, and municipal utility connections.
+              </p>
+            </div>
+
+            <!-- Service Card 3 -->
+            <div class="card service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-compass-drafting"></i>
+              </div>
+              <h3>Architectural & Structural Drafting</h3>
+              <p>
+                Bridging aesthetic elegance with engineering analysis. Creating
+                modern plans that satisfy local structural integrity
+                regulations.
+              </p>
+            </div>
+
+            <!-- Service Card 4 -->
+            <div class="card service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-business-time"></i>
+              </div>
+              <h3>Project Management</h3>
+              <p>
+                Supervising timelines, subcontracting allocation, concrete
+                logistics, and budgets to ensure prompt project deliveries.
+              </p>
+            </div>
+
+            <!-- Service Card 5 -->
+            <div class="card service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <h3>Rigorous Safety Standards</h3>
+              <p>
+                Our zero-harm policy governs field executions, guaranteeing
+                absolute adherence to construction health and safety (HSE) laws.
+              </p>
+            </div>
+
+            <!-- Service Card 6 -->
+            <div class="card service-card">
+              <div class="service-icon">
+                <i class="fa-solid fa-leaf"></i>
+              </div>
+              <h3>Sustainable Building</h3>
+              <p>
+                Integrating environmentally green features, energy-efficient
+                HVAC frameworks, and eco-friendly masonry solutions.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About Us Section -->
+      <section class="section about-section" id="about">
+        <div class="container grid grid-2 align-center">
+          <div class="about-text">
+            <span class="subtitle">About Skatenne</span>
+            <h2 class="title">A Legacy of Constructing Foundations & Trust</h2>
+            <div class="header-line left-aligned"></div>
+            <p class="about-desc highlight">
+              Skatenne Investment Limited stands at the forefront of the
+              construction and development sector, delivering complex civil and
+              commercial structures.
+            </p>
+            <p class="about-desc">
+              Founded with a mission to redefine infrastructural excellence, we
+              provide full-cycle development services. Our legacy is built on a
+              solid foundation of safety, precision engineering, transparent
+              client communication, and strict quality control. From structural
+              assessments to turn-key building handovers, we deliver quality
+              without exception.
+            </p>
+
+            <div class="values-grid">
+              <div class="value-item">
+                <i class="fa-solid fa-check-circle value-icon"></i>
+                <div>
+                  <strong>Our Mission</strong>
+                  <p>
+                    To construct premium quality structures that withstand time
+                    and climate, creating value for our investments and clients.
+                  </p>
+                </div>
+              </div>
+              <div class="value-item">
+                <i class="fa-solid fa-eye value-icon"></i>
+                <div>
+                  <strong>Our Vision</strong>
+                  <p>
+                    To be recognized globally as safety leaders and pioneers of
+                    eco-friendly, robust infrastructure developments.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="about-visual">
+            <div class="badge-grid">
+              <div class="stat-badge">
+                <span class="number">12+</span>
+                <span class="label">Years Experience</span>
+              </div>
+              <div class="stat-badge dark">
+                <span class="number">350+</span>
+                <span class="label">Happy Clients</span>
+              </div>
+              <div class="stat-badge primary">
+                <span class="number">100%</span>
+                <span class="label">HSE Compliance</span>
+              </div>
+              <div class="stat-badge accent">
+                <span class="number">180+</span>
+                <span class="label">Completed Projects</span>
+              </div>
+            </div>
+            <!-- Construction standards card -->
+            <div class="standards-banner">
+              <i class="fa-solid fa-certificate award-icon"></i>
+              <div>
+                <h4>Authorized ISO Certification</h4>
+                <p>
+                  Skatenne operates in complete conformance with international
+                  quality and safety benchmarks.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Showcase Section -->
+      <section class="section projects-section gray-bg" id="projects">
+        <div class="container">
+          <div class="section-header">
+            <span class="subtitle">Our Works</span>
+            <h2 class="title">Pioneering Projects Across Regions</h2>
+            <div class="header-line"></div>
+          </div>
+
+          <!-- Project Category Filters -->
+          <div class="project-filters">
+            <button class="filter-btn active" data-filter="all">
+              All Projects
+            </button>
+            <button class="filter-btn" data-filter="commercial">
+              Commercial
+            </button>
+            <button class="filter-btn" data-filter="infrastructure">
+              Infrastructure
+            </button>
+            <button class="filter-btn" data-filter="residential">
+              Residential
+            </button>
+          </div>
+
+          <!-- Projects Gallery Grid -->
+          <div class="grid grid-3 project-gallery">
+            <!-- Project 1 -->
+            <div class="project-item" data-category="commercial">
+              <div class="project-img-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80"
+                  alt="Commercial Skyscraper Office Complex"
+                />
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <span class="project-category">Commercial</span>
+                    <h4>Aero Plaza HQ</h4>
+                    <p>
+                      24-story green corporate skyscraper featuring low carbon
+                      materials and intelligent HVAC layouts.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="project-item" data-category="infrastructure">
+              <div class="project-img-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1545558014-868cfc47e055?auto=format&fit=crop&w=800&q=80"
+                  alt="Concrete Bridge Structure"
+                />
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <span class="project-category">Infrastructure</span>
+                    <h4>Lekki Bypass Flyover</h4>
+                    <p>
+                      A multi-lane concrete expressway overpass connecting
+                      transport hubs and easing traffic.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 3 -->
+            <div class="project-item" data-category="residential">
+              <div class="project-img-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=800&q=80"
+                  alt="Luxury Modern Villa"
+                />
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <span class="project-category">Residential</span>
+                    <h4>Summit Heights Villas</h4>
+                    <p>
+                      A exclusive estate layout of 15 premium luxury detached
+                      duplexes with smart grid automation.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 4 -->
+            <div class="project-item" data-category="commercial">
+              <div class="project-img-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=800&q=80"
+                  alt="Industrial Manufacturing Site"
+                />
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <span class="project-category">Commercial</span>
+                    <h4>Logix Warehouse Park</h4>
+                    <p>
+                      A heavy-duty steel frame logistics warehouse built for
+                      maximum volume optimizations.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 5 -->
+            <div class="project-item" data-category="infrastructure">
+              <div class="project-img-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1513828722001-c22dbf88c7f6?auto=format&fit=crop&w=800&q=80"
+                  alt="Harbor Terminals & Sea Port Walls"
+                />
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <span class="project-category">Infrastructure</span>
+                    <h4>North Seaport Breakwater</h4>
+                    <p>
+                      Reinforced marine concrete barriers engineered to resist
+                      coastline wave erosion.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Project 6 -->
+            <div class="project-item" data-category="residential">
+              <div class="project-img-wrapper">
+                <img
+                  src="https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=800&q=80"
+                  alt="Modern Apartments Development"
+                />
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <span class="project-category">Residential</span>
+                    <h4>Eden Courtyard Blocks</h4>
+                    <p>
+                      Responsive mid-rise urban residential units emphasizing
+                      open gardens and solar power panels.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Articles/Insights Section -->
+      <section class="section articles-section" id="articles">
+        <div class="container">
+          <div class="section-header">
+            <span class="subtitle">Read Insights</span>
+            <h2 class="title">Latest Industry Trends & Company Updates</h2>
+            <div class="header-line"></div>
+          </div>
+
+          <div class="grid grid-3">
+            <!-- Article 1 -->
+            <article class="card article-card animate-on-scroll">
+              <div class="article-img">
+                <img
+                  src="https://images.unsplash.com/photo-1579758629938-03607ccdbaba?auto=format&fit=crop&w=600&q=80"
+                  alt="Eco concrete technology"
+                />
+                <span class="article-tag">Technology</span>
+              </div>
+              <div class="article-content">
+                <span class="article-date"
+                  ><i class="fa-regular fa-calendar"></i> July 4, 2026</span
+                >
+                <h3 class="article-title">
+                  <a href="#"
+                    >Sustainable Masonry: Incorporating Eco-Concrete</a
+                  >
+                </h3>
+                <p>
+                  How the choice of carbon-cured concrete minimizes
+                  environmental footprint while reinforcing concrete block
+                  reliability.
+                </p>
+                <a href="#" class="article-more"
+                  >Read More <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </article>
+
+            <!-- Article 2 -->
+            <article class="card article-card animate-on-scroll">
+              <div class="article-img">
+                <img
+                  src="https://images.unsplash.com/photo-1471244329241-118cf94cf5ac?auto=format&fit=crop&w=600&q=80"
+                  alt="Safety helmet and glasses on building blueprints"
+                />
+                <span class="article-tag">Safety</span>
+              </div>
+              <div class="article-content">
+                <span class="article-date"
+                  ><i class="fa-regular fa-calendar"></i> June 28, 2026</span
+                >
+                <h3 class="article-title">
+                  <a href="#"
+                    >Zero-Harm HSE Standards: A Non-Negotiable Directive</a
+                  >
+                </h3>
+                <p>
+                  Deep-diving into Skatenne's strict industrial safety tools,
+                  personnel checks, and crane hazard preventions.
+                </p>
+                <a href="#" class="article-more"
+                  >Read More <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </article>
+
+            <!-- Article 3 -->
+            <article class="card article-card animate-on-scroll">
+              <div class="article-img">
+                <img
+                  src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=600&q=80"
+                  alt="Planning group session in office"
+                />
+                <span class="article-tag">Management</span>
+              </div>
+              <div class="article-content">
+                <span class="article-date"
+                  ><i class="fa-regular fa-calendar"></i> June 15, 2026</span
+                >
+                <h3 class="article-title">
+                  <a href="#">The Digitalization of Construction Logistics</a>
+                </h3>
+                <p>
+                  Exploring cloud scheduling and RFID supply tracking to
+                  significantly reduce raw material delays on-site.
+                </p>
+                <a href="#" class="article-more"
+                  >Read More <i class="fa-solid fa-arrow-right"></i
+                ></a>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- Dynamic Value Proposition Banner -->
+      <section class="section quotation-banner">
+        <div class="container text-center">
+          <h2>Looking for a Reliable Partner in Infrastructure?</h2>
+          <p>
+            We combine heavy equipment capability, engineering precision, and a
+            robust management structure to deliver on scope, time, and budget.
+          </p>
+          <button class="btn btn-accent btn-large open-quote-modal">
+            Request an In-Depth Quote Today
+          </button>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-info">
+          <h3><span class="logo-accent">Skatenne</span> Investment</h3>
+          <p>
+            A dominant player in civil construction, premium architecture, and
+            real estate, transforming client requirements into structural
+            marvels.
+          </p>
+          <div class="social-icons">
+            <a href="#" aria-label="Facebook"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#" aria-label="LinkedIn"
+              ><i class="fa-brands fa-linkedin-in"></i
+            ></a>
+            <a href="#" aria-label="Instagram"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" aria-label="Twitter"
+              ><i class="fa-brands fa-x-twitter"></i
+            ></a>
+          </div>
+        </div>
+
+        <div class="footer-links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#articles">Articles</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-services">
+          <h4>Core Specialties</h4>
+          <ul>
+            <li>General Construction</li>
+            <li>Road & Flyover Infrastructure</li>
+            <li>Architectural Planning</li>
+            <li>Procurement Logistics</li>
+          </ul>
+        </div>
+
+        <div class="footer-contact">
+          <h4>Contact Info</h4>
+          <ul class="contact-list">
+            <li>
+              <i class="fa-solid fa-location-dot"></i> 42 Construction
+              Boulevard, Suite A, Lagos, Nigeria
+            </li>
+            <li><i class="fa-solid fa-phone"></i> +234 (0) 803 123 4567</li>
+            <li>
+              <i class="fa-solid fa-envelope"></i> info@skatenneinvestment.com
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div class="container footer-bottom-flex">
+          <p>&copy; 2026 Skatenne Investment Limited. All Rights Reserved.</p>
+          <div class="footer-policy-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Request a Quote Modal Overlay -->
+    <div class="modal-overlay" id="quote-modal">
+      <div class="modal">
+        <button class="modal-close" id="close-modal" aria-label="Close modal">
+          &times;
+        </button>
+        <div class="modal-header">
+          <h3>Request a Project Quote</h3>
+          <p>
+            Provide brief parameters about your construction demands and our
+            estimators will follow up.
+          </p>
+        </div>
+        <form class="modal-form" id="quote-form">
+          <div class="form-group grid-2col-mobile">
+            <div>
+              <label for="quote-name"
+                >Full Name <span class="required">*</span></label
+              >
+              <input
+                type="text"
+                id="quote-name"
+                name="name"
+                required
+                placeholder="John Doe"
+              />
+              <span class="error-msg" id="name-error"
+                >Please enter your name.</span
+              >
+            </div>
+            <div>
+              <label for="quote-email"
+                >Email Address <span class="required">*</span></label
+              >
+              <input
+                type="email"
+                id="quote-email"
+                name="email"
+                required
+                placeholder="john@example.com"
+              />
+              <span class="error-msg" id="email-error"
+                >Please enter a valid email address.</span
+              >
+            </div>
+          </div>
+
+          <div class="form-group grid-2col-mobile">
+            <div>
+              <label for="quote-phone">Phone Number</label>
+              <input
+                type="tel"
+                id="quote-phone"
+                name="phone"
+                placeholder="+234 (0) 800 000 0000"
+              />
+            </div>
+            <div>
+              <label for="quote-project-type"
+                >Project Category <span class="required">*</span></label
+              >
+              <select id="quote-project-type" name="projectType" required>
+                <option value="">-- Choose Category --</option>
+                <option value="commercial">Commercial Building</option>
+                <option value="infrastructure">Infrastructure & Highway</option>
+                <option value="residential">Residential Development</option>
+                <option value="renovation">
+                  Renovation & Structural Refit
+                </option>
+                <option value="other">Other Specialties</option>
+              </select>
+              <span class="error-msg" id="type-error"
+                >Please select a project category.</span
+              >
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="quote-message"
+              >Brief Project Description <span class="required">*</span></label
+            >
+            <textarea
+              id="quote-message"
+              name="message"
+              rows="4"
+              required
+              placeholder="Outline size, layout requirements, site location, timeline..."
+            ></textarea>
+            <span class="error-msg" id="message-error"
+              >Please enter a description of your project.</span
+            >
+          </div>
+
+          <div class="form-group checkbox-group">
+            <input type="checkbox" id="quote-consent" name="consent" required />
+            <label for="quote-consent"
+              >I authorize Skatenne to store and utilize my contact coordinates
+              to generate estimates. <span class="required">*</span></label
+            >
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" id="cancel-modal">
+              Cancel
+            </button>
+            <button type="submit" class="btn btn-primary">Submit Form</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <!-- Submission Successful Toast / Banner Overlay -->
+    <div class="toast-overlay" id="success-toast">
+      <div class="toast-card">
+        <i class="fa-solid fa-circle-check toast-icon"></i>
+        <div>
+          <h4>Quote Request Received!</h4>
+          <p>
+            Thank you for contacting Skatenne. An estimator will review your
+            parameters and email you within 48 business hours.
+          </p>
+          <button
+            class="btn btn-primary btn-small close-toast-btn"
+            id="close-toast"
+          >
+            Done
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- WhatsApp Bot Widget -->
+    <div class="whatsapp-bot-widget" id="whatsapp-bot-widget">
+      <!-- Floating Action Button -->
+      <button
+        class="whatsapp-btn"
+        id="whatsapp-btn"
+        aria-label="Open WhatsApp Chatbot"
+      >
+        <span class="whatsapp-pulse"></span>
+        <i class="fa-brands fa-whatsapp"></i>
+        <span class="whatsapp-badge-pulse"></span>
+      </button>
+
+      <!-- Chat panel -->
+      <div class="whatsapp-chat-box" id="whatsapp-chat-box">
+        <!-- Header -->
+        <div class="whatsapp-chat-header">
+          <div class="chat-avatar-wrapper">
+            <img
+              src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&w=100&q=80"
+              alt="Skatenne AI Support"
+            />
+            <span class="online-indicator"></span>
+          </div>
+          <div class="chat-header-info">
+            <h4>Skatenne Live Chat</h4>
+            <p>Typically replies instantly</p>
+          </div>
+          <button
+            class="whatsapp-chat-close"
+            id="close-whatsapp"
+            aria-label="Close chat window"
+          >
+            &times;
+          </button>
+        </div>
+
+        <!-- Scrollable Messages Body -->
+        <div class="whatsapp-chat-body" id="whatsapp-chat-body">
+          <div class="bot-msg">
+            <p>Hello! Welcome to Skatenne Investment Limited. 👋</p>
+          </div>
+          <div class="bot-msg">
+            <p>
+              I'm your virtual site executive. How can we help you today? Select
+              a shortcut or type below:
+            </p>
+          </div>
+          <div class="whatsapp-quick-replies" id="whatsapp-quick-replies">
+            <button class="quick-reply-btn" data-reply="Request Quote">
+              🏗️ Request Project Quote
+            </button>
+            <button class="quick-reply-btn" data-reply="General Inquiry">
+              ✉️ General Inquiry
+            </button>
+            <button class="quick-reply-btn" data-reply="HSE Safety Standards">
+              🛡️ HSE Safety standards
+            </button>
+          </div>
+        </div>
+
+        <!-- Footer custom message input -->
+        <form class="whatsapp-chat-footer" id="whatsapp-chat-form">
+          <input
+            type="text"
+            id="whatsapp-chat-input"
+            placeholder="Type a message to WhatsApp..."
+            required
+            autocomplete="off"
+          />
+          <button
+            type="submit"
+            class="whatsapp-send-btn"
+            aria-label="Submit message redirection"
+          >
+            <i class="fa-solid fa-paper-plane"></i>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
