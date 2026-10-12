@@ -208,6 +208,19 @@ img {
   color: var(--text-light);
 }
 
+/* Logo image styling */
+.logo-img {
+  width: 48px;
+  height: 48px;
+  object-fit: contain;
+  margin-right: 0.6rem;
+  background-color: #ffffff;
+  padding: 6px;
+  border-radius: 6px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
 .main-header.scrolled .logo {
   color: var(--primary-color);
 }
