@@ -419,7 +419,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const chatFlowZone = document.getElementById("whatsapp-chat-body");
   const quickRepliesSection = document.getElementById("whatsapp-quick-replies");
 
-  const whatsappPhone = "2348036723799"; // Phone number: 08036723799 (Nigerian international format)
+  const whatsappPhone = "2348034179960"; // Phone number: 08034179960 (Nigerian international format)
 
   // Toggle chatbox visibility
   const toggleWhatsappChat = () => {
