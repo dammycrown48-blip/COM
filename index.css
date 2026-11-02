@@ -1393,6 +1393,10 @@ img {
     display: block;
   }
 
+  .logo {
+    font-size: 1rem;
+  }
+
   .main-header {
     padding: 1.2rem 0;
   }
