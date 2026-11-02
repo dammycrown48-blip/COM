@@ -1360,25 +1360,169 @@ img {
 /* Responsiveness adjustments (tablet, phone) */
 
 @media (max-width: 1024px) {
+  /* ── Container ── */
   .container {
     padding: 0 2rem;
   }
 
+  /* ── Header & Nav ── */
   .logo {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
+  }
+
+  .logo-img {
+    width: 40px;
+    height: 40px;
   }
 
   .nav-menu {
-    gap: 1.2rem;
+    gap: 1rem;
   }
 
-  .footer-grid {
-    grid-template-columns: repeat(2, 1fr);
-    gap: 3rem;
+  .nav-link {
+    font-size: 0.88rem;
+  }
+
+  .main-header {
+    padding: 1.2rem 0;
+  }
+
+  /* ── Hero Section ── */
+  .hero-section {
+    height: 85vh;
+    min-height: 560px;
   }
 
   .slide-title {
-    font-size: 2.8rem;
+    font-size: 2.6rem;
+  }
+
+  .slide-subtitle {
+    font-size: 1.1rem;
+  }
+
+  .slide-content {
+    max-width: 640px;
+    padding-top: 5rem;
+  }
+
+  .slider-arrow {
+    width: 46px;
+    height: 46px;
+    font-size: 1rem;
+  }
+
+  .slider-arrow.prev {
+    left: 1.5rem;
+  }
+
+  .slider-arrow.next {
+    right: 1.5rem;
+  }
+
+  /* ── Section General ── */
+  .section {
+    padding: 5rem 0;
+  }
+
+  .section-header {
+    margin-bottom: 3rem;
+  }
+
+  .section-header .title {
+    font-size: 2rem;
+  }
+
+  /* ── Grids ── */
+  .grid-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* ── About Section ── */
+  .about-section .grid-2 {
+    gap: 3rem;
+  }
+
+  .badge-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .stat-badge .number {
+    font-size: 2rem;
+  }
+
+  .standards-banner {
+    padding: 1.4rem;
+    gap: 1rem;
+  }
+
+  .award-icon {
+    font-size: 2.2rem;
+  }
+
+  /* ── Services ── */
+  .service-card h3 {
+    font-size: 1.15rem;
+  }
+
+  /* ── Projects ── */
+  .project-filters {
+    gap: 0.8rem;
+  }
+
+  .filter-btn {
+    padding: 0.5rem 1.1rem;
+    font-size: 0.8rem;
+  }
+
+  /* ── Articles ── */
+  .article-img {
+    height: 200px;
+  }
+
+  .article-title {
+    font-size: 1.1rem;
+  }
+
+  /* ── Quotation Banner ── */
+  .quotation-banner h2 {
+    font-size: 1.9rem;
+  }
+
+  .quotation-banner p {
+    font-size: 1rem;
+  }
+
+  /* ── Footer ── */
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.5rem;
+  }
+
+  .footer {
+    padding: 4rem 0 0 0;
+  }
+
+  /* ── Modal ── */
+  .modal {
+    max-width: 560px;
+    padding: 2.5rem;
+  }
+
+  /* ── WhatsApp Widget ── */
+  .whatsapp-chat-box {
+    width: 310px;
+    height: 440px;
+  }
+
+  .whatsapp-btn {
+    width: 54px;
+    height: 54px;
+    font-size: 1.7rem;
   }
 }
 
